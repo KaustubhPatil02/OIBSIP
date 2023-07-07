@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import contactSvg from "../assets/fact.svg";
 import { addDoc, collection } from "firebase/firestore";
-import { db } from "../../initFirebase";
 
 function Contact() {
   const [firstName, setFirstName] = useState("");
